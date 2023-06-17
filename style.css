@@ -17,3 +17,12 @@ body {
     height: 55px;
     width: 55px;
 }
+
+#navigate-button {
+    border: none;
+    width: 60%;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+}
