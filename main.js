@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 $(function() {
     $("#navigate-button").click(function() {
-        window.location.href = `ar_weather.html?source=${latitude};${longtitude}&destination=${destination[1]};${destination[0]}`
+        window.location.href = `ar_weather.html?source=${latitude},${longtitude}&destination=${destination[1]},${destination[0]}`
     })
 })
 
